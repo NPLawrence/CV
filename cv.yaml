@@ -38,7 +38,7 @@ order:
   - [service, Professional Activities]
   - [skills, Skills]
   - [teaching, Teaching]
-  - [coursework, Graduate Coursework (selected)]
+  # - [coursework, Graduate Coursework (selected)]
 
 about:
 
