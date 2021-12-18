@@ -12,10 +12,13 @@
       % \par \vspace{-1mm} {\scriptsize
       \,\, {\scriptsize
         \color{gray}{<< item.sub_details >>}
-      } \\[2mm]
+      }
     ~< endif >~
     ~< if item.year >~
         \hfill << item.year >> \\
+    ~< endif >~
+    ~< if item.extra >~
+        << item.extra >> \\
     ~< endif >~
   ~< endfor >~
 % \end{tabular}
