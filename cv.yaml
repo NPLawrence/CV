@@ -5,7 +5,7 @@ name:
 email: lawrence@math.ubc.ca
 pdf: /data/cv.pdf
 src: https://github.com/NPLawrence/CV
-url: "https://nplawrence.com"
+url: "nplawrence.com"
 social:
   github: NPLawrence
   twitter:
@@ -19,13 +19,14 @@ color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 
 # (tag, section type, title)
 order:
-  - [about, NONE]
+  # - [about, About]
   # - [news, News]
   # - [positions, Current Position]
   - [education, Education]
-  - [all_publications, Publications]
+  # - [all_publications, Publications]
+  - [all_publications, Selected Publications]
   # - [industry, Research Internships]
-  - [research, Research Experience]
+  # - [research, Research Experience]
   # - [selected_publications, Selected Publications]
   - [honors, Honors \& Awards]
   # - [projects, Projects]
@@ -35,12 +36,14 @@ order:
   # - [NEWPAGE, NEWPAGE]
   # - [talks, Invited Talks]
   # - [advising, Interns and Students]
-  - [service, Professional Activities]
-  - [skills, Skills]
-  - [teaching, Teaching]
+  # - [service, Professional Activities]
+  # - [skills, Skills]
+  # - [teaching, Teaching]
   # - [coursework, Graduate Coursework (selected)]
 
-about:
+about: '
+  Deep reinforcement learning, industrial process control\\ Collaborative research and development project with Honeywell Process Solutions
+  <br><br>'
 
 service:
   - details: "Reviewing: IEEE, IFAC"
@@ -169,7 +172,7 @@ teaching:
 
 all_publications:
   name: "Lawrence"
-  file: all.bib
+  file: selected.bib
   sort_bib: True
   include_image: False
   group_by_year: True
@@ -269,17 +272,17 @@ honors:
   - title: Dean's Award for Academic Achievement
     year: 2016
     descr: Bachelor's; PSU
-  - title: President's List
-    year: 2013-2016
-    descr: Bachelor's; PSU
-  - title: Barbara McDougall Scholarship
-    year: 2015
-    descr: Bachelor's; Departmental award at PSU
-  - title: Honors Laurels Merit Award
-    year: 2014-2015
-    descr: Bachelor's; Honor's college award at PSU
-  - title: The Honor Society of Phi Kappa Phi
-    year: 2013-2015
-    descr: Member; Bachelor's; National honor society
+  # - title: President's List
+  #   year: 2013-2016
+  #   descr: Bachelor's; PSU
+  # - title: Barbara McDougall Scholarship
+  #   year: 2015
+  #   descr: Bachelor's; Departmental award at PSU
+  # - title: Honors Laurels Merit Award
+  #   year: 2014-2015
+  #   descr: Bachelor's; Honor's college award at PSU
+  # - title: The Honor Society of Phi Kappa Phi
+  #   year: 2013-2015
+  #   descr: Member; Bachelor's; National honor society
 
 # projects:

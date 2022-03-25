@@ -302,8 +302,8 @@ def get_pub_latex(context, config):
 
         highlight_color = '\cellcolor{tab_highlight}' if 'selected' in pub else ''
         if '_note' in pub:
-            # note_str = r'{} && \textbf{{{}}} \\'.format(
-            note_str = f"({pub['_note']})"
+            note_str = r'\color{{{}}}({})\\'.format("violet", pub['_note'])
+            # note_str = f"({pub['_note']})"
         else:
             note_str = ''
 
@@ -346,11 +346,11 @@ def get_pub_latex(context, config):
         gidx = 1
         for year, year_pubs in groupby(pubs, lambda pub: pub['year_int']):
             print_year = year >= 2015
-            if print_year:
-                year_str = str(year)
-                if year == 2015:
-                    year_str = "2015 and earlier"
-                details += rf'\subsection{{{year_str}}}' + '\n'
+            # if print_year:
+            #     year_str = str(year)
+            #     if year == 2015:
+            #         year_str = "2015 and earlier"
+            #     details += rf'\subsection{{{year_str}}}' + '\n'
 
             for i, pub in enumerate(year_pubs):
                 details += _get_pub_str(pub, '', gidx) + sep
