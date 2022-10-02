@@ -312,7 +312,7 @@ def get_pub_latex(context, config):
 \begin{{tabular}}{{R{{8mm}}p{{1mm}}L{{6.5in}}}}
 {highlight_color} {prefix}{gidx}.\hspace*{{1mm}} && \textit{{{title}}} {links} \\
 {highlight_color} && {author_str} \\
-{highlight_color} && {yearVenue} {note_str} \\
+{highlight_color} && {yearVenue} {note_str}
 \end{{tabular}} \\[2mm]
 \end{{minipage}}'''
 

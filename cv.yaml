@@ -36,7 +36,7 @@ order:
   # - [NEWPAGE, NEWPAGE]
   # - [talks, Invited Talks]
   # - [advising, Interns and Students]
-  # - [service, Professional Activities]
+  - [service, Professional Activities]
   # - [skills, Skills]
   # - [teaching, Teaching]
   # - [coursework, Graduate Coursework (selected)]
@@ -46,28 +46,31 @@ about: '
   <br><br>'
 
 service:
+  - details: "Organizer: Reinforcement learning workshop at AdCONIP"
+    year: 2022
+    url: https://adconip2022.org/workshops/#workshop-2-making-reinforcement-learning-a-practical-technology-for-industrial-control
+    sub_details: "Upcoming"
   - details: "Reviewing: IEEE, IFAC"
     year: 2019-2021
-  - details: "UBC Engineering Co-op Experimental Course: ``PID tuning via meta-learning''"
-    sub_details: "Mentor"
+  - details: "Mentor: UBC Engineering Co-op Experimental Course"
+    sub_details: "``PID tuning via meta-learning''"
     year: 2020
-  - details: "IAM workshop: ``How to make a professional website''"
-    sub_details: "Fascilitator"
-    url: https://github.com/NPLawrence/website_workshop
-    year: 2021
-  - details: "DAIS research lab"
-    sub_details: "Organizer"
-    year: 2020-2021
-    url: https://dais.chbe.ubc.ca
-  - details: "SIAM, PSU Chapter"
-    sub_details: "Vice-president"
+  # - details: "IAM workshop: ``How to make a professional website''"
+  #   sub_details: "Fascilitator"
+  #   url: https://github.com/NPLawrence/website_workshop
+  #   year: 2021
+  # - details: "DAIS research lab"
+  #   sub_details: "Organizer"
+  #   year: 2020-2021
+  #   url: https://dais.chbe.ubc.ca
+  - details: "Vice-president: SIAM, PSU Chapter"
     year: 2017-2018
-  - details: "Pi Mu Epsilon, Oregon Gamma Chapter"
-    sub_details: "President"
-    year: 2015-2016
-  - details: "PSU Chess Club"
-    sub_details: "Vice-president"
-    year: 2015-2017
+  # - details: "Pi Mu Epsilon, Oregon Gamma Chapter"
+  #   sub_details: "President"
+  #   year: 2015-2016
+  # - details: "PSU Chess Club"
+  #   sub_details: "Vice-president"
+  #   year: 2015-2017
 
 repos:
 
@@ -256,16 +259,16 @@ skills:
 honors:
   - title: Alexander Graham Bell Canada Graduate Scholarship
     year: 2020--Present
-    descr: Doctoral; National scholarship awarded by NSERC
-  - title: Four Year Doctoral Fellowship
-    year: 2020--Present
-    descr: Doctoral; UBC scholarship
+    descr: Doctoral; National scholarship awarded by NSERC; Ranked {\color{violet}5th of 107} in Mathematical Sciences
+  # - title: Four Year Doctoral Fellowship
+  #   year: 2020--Present
+  #   descr: Doctoral; UBC scholarship
   - title: Eugene Enneking Doctoral Fellowship
     year: 2018
     descr: Declined; PSU
-  - title: Oregon Sports Lottery Graduate Scholarship
-    year: 2018
-    descr: Declined; PSU
+  # - title: Oregon Sports Lottery Graduate Scholarship
+  #   year: 2018
+  #   descr: Declined; PSU
   - title: F.S. Cater Prize
     year: 2017
     descr: Master's; Departmental scholarship at PSU
