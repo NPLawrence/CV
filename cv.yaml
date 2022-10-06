@@ -19,14 +19,14 @@ color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 
 # (tag, section type, title)
 order:
-  # - [about, About]
+  - [about, About]
   # - [news, News]
   # - [positions, Current Position]
   - [education, Education]
-  # - [all_publications, Publications]
-  - [all_publications, Selected Publications]
+  # - [all_publications, Selected Publications]
   # - [industry, Research Internships]
-  # - [research, Research Experience]
+  - [research, Research Experience]
+  - [skills, Skills]
   # - [selected_publications, Selected Publications]
   - [honors, Honors \& Awards]
   # - [projects, Projects]
@@ -37,40 +37,41 @@ order:
   # - [talks, Invited Talks]
   # - [advising, Interns and Students]
   - [service, Professional Activities]
-  # - [skills, Skills]
-  # - [teaching, Teaching]
-  # - [coursework, Graduate Coursework (selected)]
+  - [all_publications, Publications]
+  - [teaching, Teaching]
+  - [coursework, Graduate Coursework (selected)]
 
 about: '
   Deep reinforcement learning, industrial process control\\ Collaborative research and development project with Honeywell Process Solutions
   <br><br>'
 
 service:
-  - details: "Organizer: Reinforcement learning workshop at AdCONIP"
+  - details: "Workshop: ``Making reinforcement learning a practical technology for industrial control''"
+    sub_details: "Organizer"
     year: 2022
-    url: https://adconip2022.org/workshops/#workshop-2-making-reinforcement-learning-a-practical-technology-for-industrial-control
-    sub_details: "Upcoming"
-  - details: "Reviewing: IEEE, IFAC"
+    url: https://ad conip2022.org/workshops/
+  - details: "Reviewing: IEEE, IFAC, Scientific Reports, Control Engineering Practice"
     year: 2019-2021
   - details: "Mentor: UBC Engineering Co-op Experimental Course"
     sub_details: "``PID tuning via meta-learning''"
     year: 2020
-  # - details: "IAM workshop: ``How to make a professional website''"
-  #   sub_details: "Fascilitator"
-  #   url: https://github.com/NPLawrence/website_workshop
-  #   year: 2021
-  # - details: "DAIS research lab"
-  #   sub_details: "Organizer"
-  #   year: 2020-2021
-  #   url: https://dais.chbe.ubc.ca
-  - details: "Vice-president: SIAM, PSU Chapter"
+  - details: "IAM workshop: ``How to make a professional website''"
+    sub_details: "Fascilitator"
+    url: https://github.com/NPLawrence/website_workshop
+    year: 2021
+  - details: "DAIS research lab"
+    sub_details: "Organizer"
+    year: 2020-2021
+    url: https://dais.chbe.ubc.ca
+  - details: "SIAM, PSU Chapter"
+    sub_details: "Vice-president"
     year: 2017-2018
-  # - details: "Pi Mu Epsilon, Oregon Gamma Chapter"
-  #   sub_details: "President"
-  #   year: 2015-2016
-  # - details: "PSU Chess Club"
-  #   sub_details: "Vice-president"
-  #   year: 2015-2017
+  - details: "Pi Mu Epsilon, Oregon Gamma Chapter"
+    sub_details: "President"
+    year: 2015-2016
+  - details: "PSU Chess Club"
+    sub_details: "Vice-president"
+    year: 2015-2017
 
 repos:
 
@@ -93,9 +94,10 @@ education:
     overallGPA:
     majorGPA:
     details:
+      - "Thesis: \\textit{Low-Dimensional Characterization of Human Faces from Gappy Data}"
       - "Advisor: \\href{https://web.pdx.edu/~daescu/}{Dacian Daescu}"
 
-  - school: Portland State University
+  - school: Portland State University Honors College
     location: Portland, OR, USA
     degree: B.A. in Mathematics
     dates: 2013 -- 2016
@@ -103,9 +105,9 @@ education:
     overallGPA:
     majorGPA:
     details:
-      - Summa cum laude and departmental honors
-      - "\\textit{\\href{https://pdxscholar.library.pdx.edu/honorstheses/317/}{Convex and Nonconvex Optimization Techniques for the Constrained Fermat-Torricelli Problem}}"
-      - "Advisor: \\href{https://web.pdx.edu/~mnn3/}{Mau Nam Nguyuen}"
+      - "\\textit{summa cum laude} and departmental honors"
+      - "Thesis: \\textit{\\href{https://pdxscholar.library.pdx.edu/honorstheses/317/}{Convex and Nonconvex Optimization Techniques for the Constrained Fermat-Torricelli Problem}}"
+      - "Advisor: \\href{https://web.pdx.edu/~mnn3/}{Mau Nam Nguyen}"
 
 
 research:
@@ -175,7 +177,7 @@ teaching:
 
 all_publications:
   name: "Lawrence"
-  file: selected.bib
+  file: all.bib
   sort_bib: True
   include_image: False
   group_by_year: True
@@ -214,61 +216,50 @@ all_publications:
 
 
 coursework:
-  - semester: Winter II 2019
-    name: Probability II (MATH 545)
-    instructor: M. Murugan
-  - semester: Winter II 2019
+  - semester: Winter I 2019
+    name: Machine Learning and Data Mining (CPSC 532M)
+    instructor: M. Schmidt
+  - semester: Winter I-II 2018
+    name: Probability I-II (MATH 544-545)
+    instructor: E. Perkins, M. Murugan
+  - semester: Winter II 2018
     name: Foundations in Control Engineering (MECH 522, audit)
     instructor: R. Nagamune
-  - semester: Winter I 2018
-    name: Probability I (MATH 544)
-    instructor: E. Perkins
   - semester: Fall, Winter, Spring 2017-2018
     name: Modern Analysis I-III (MTH 614-616)
     instructor: M.N. Nguyen
-  - semester: F2016
-    name: Topics in Deep Learning (10-807)
-    instructor: R. Salakhutdinov
-  - semester: F2015
-    name: Convex Optimization (10-725)
-    instructor: R. J. Tibshirani
-  - semester: F2015
-    name: Algorithms in the Real World (15-853)
-    instructor: G. Blelloch and A. Gupta
-  - semester: S2015
-    name: Semantics of Programming Languages (15-812)
-    instructor: A. Platzer
-  - semester: S2015
-    name: Optimizing Compilers for Modern Architecture (15-745)
-    instructor: T. Mowry
-  - semester: F2014
-    name: Advanced Operating and Distributed Systems (15-712)
-    instructor: D. Andersen
-  - semester: F2014
-    name: Mobile and Pervasive Computing (15-812)
-    instructor: M. Satyanarayanan and D. Siewiorek
+  - semester: Fall, Winter, Spring 2016-2017
+    name: Numerical Optimization I-II (MTH 510)
+    instructor: D. Daescu
+  - semester: Winter, Spring 2017
+    name: Networked Control Systems I-II (MTH 510)
+    instructor: G. Lafferriere
 
 skills:
   - title: Programming
     details: Python, Julia
   - title: Frameworks
-    details: PyTorch, TensorFlow, NumPy, Pandas, SciPy, TensorFlow
+    details: PyTorch, TensorFlow, Stable-Baselines3, Spinning Up, Pandas, SciPy, NumPy, Flux.jl, ReinforcementLearning.jl
   - title: Tools
     details: Matlab, git, LaTex
 
 honors:
+  - title: FIPSE Graduate Student Participation Award
+    year: 2022
+    descr: 1 of 5 graduate students invited to attend Future Innovations in Process Systems Engineering in Crete, Greece
+    url: https://www.fi-in-pse.org
   - title: Alexander Graham Bell Canada Graduate Scholarship
     year: 2020--Present
     descr: Doctoral; National scholarship awarded by NSERC; Ranked {\color{violet}5th of 107} in Mathematical Sciences
-  # - title: Four Year Doctoral Fellowship
-  #   year: 2020--Present
-  #   descr: Doctoral; UBC scholarship
+  - title: Four Year Doctoral Fellowship
+    year: 2020--Present
+    descr: Doctoral; UBC scholarship
   - title: Eugene Enneking Doctoral Fellowship
     year: 2018
     descr: Declined; PSU
-  # - title: Oregon Sports Lottery Graduate Scholarship
-  #   year: 2018
-  #   descr: Declined; PSU
+  - title: Oregon Sports Lottery Graduate Scholarship
+    year: 2018
+    descr: Declined; PSU
   - title: F.S. Cater Prize
     year: 2017
     descr: Master's; Departmental scholarship at PSU
@@ -278,14 +269,14 @@ honors:
   # - title: President's List
   #   year: 2013-2016
   #   descr: Bachelor's; PSU
-  # - title: Barbara McDougall Scholarship
-  #   year: 2015
-  #   descr: Bachelor's; Departmental award at PSU
-  # - title: Honors Laurels Merit Award
-  #   year: 2014-2015
-  #   descr: Bachelor's; Honor's college award at PSU
-  # - title: The Honor Society of Phi Kappa Phi
-  #   year: 2013-2015
-  #   descr: Member; Bachelor's; National honor society
+  - title: Barbara McDougall Scholarship
+    year: 2015
+    descr: Bachelor's; Departmental award at PSU
+  - title: Honors Laurels Merit Award
+    year: 2014-2015
+    descr: Bachelor's; Honor's college award at PSU
+  - title: The Honor Society of Phi Kappa Phi
+    year: 2013-2015
+    descr: Member; Bachelor's; National honor society
 
 # projects:
