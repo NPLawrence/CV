@@ -80,10 +80,11 @@ education:
   - school: The University of British Columbia
     location: Vancouver, BC, Canada
     degree: Ph.D in Mathematics
-    dates: 2018 -- Present
+    dates: 2018 -- 2023
     # dates: May 2019
     overallGPA:
     details:
+      - "Thesis: \\textit{\\href{https://dx.doi.org/10.14288/1.0430547}{Deep reinforcement learning agents for industrial control system design}}"
       - "Advisors: \\href{https://personal.math.ubc.ca/~loew/}{Philip Loewen}, \\href{https://dais.chbe.ubc.ca}{Bhushan Gopaluni}"
 
   - school: Portland State University
@@ -244,6 +245,9 @@ skills:
     details: Matlab, git, LaTex
 
 honors:
+  - title: Graduate Research Award -- Applied mathematics
+    year: 2022
+    descr: Doctoral; UBC mathematics departmental award
   - title: FIPSE Graduate Student Participation Award
     year: 2022
     descr: 1 of 5 graduate students invited to attend Future Innovations in Process Systems Engineering in Crete, Greece
